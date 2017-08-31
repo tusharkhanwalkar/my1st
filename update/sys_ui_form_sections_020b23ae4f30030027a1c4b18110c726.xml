@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="020b23ae4f30030027a1c4b18110c726" sys_domain="global" table="x_18000_needit_needit" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-28 20:32:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e0b23ae4f30030027a1c4b18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_18000_needit_needit" name="x_18000_needit_needit" sys_domain="global" view="060b23ae4f30030027a1c4b18110c721">020b23ae4f30030027a1c4b18110c726</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_18000_needit_needit" sys_domain="global" view="060b23ae4f30030027a1c4b18110c721">c60b23ae4f30030027a1c4b18110c724</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-28 20:32:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_18000_needit_needit</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-28 20:32:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>020b23ae4f30030027a1c4b18110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_18000_needit_needit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_18000_needit">e85c77e14f30030027a1c4b18110c793</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">e85c77e14f30030027a1c4b18110c793</sys_scope>
+            <sys_update_name>sys_ui_form_sections_020b23ae4f30030027a1c4b18110c726</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-28 20:32:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="User" name="User">060b23ae4f30030027a1c4b18110c721</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
