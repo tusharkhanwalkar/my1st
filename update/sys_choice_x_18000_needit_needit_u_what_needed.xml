@@ -24,6 +24,25 @@
             <dependent_value/>
             <element>u_what_needed</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Your Department Choice 1</label>
+            <language>en</language>
+            <name>x_18000_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-28 20:03:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>086423ea4f30030027a1c4b18110c7ff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-23 09:50:05</sys_updated_on>
+            <value>your choce1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Human Resources2</label>
             <language>en</language>
@@ -38,6 +57,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-08-28 20:03:32</sys_updated_on>
             <value>hr2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Your  Department Choice 2</label>
+            <language>en</language>
+            <name>x_18000_needit_needit</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-28 20:03:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c06463ea4f30030027a1c4b18110c701</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-23 09:50:05</sys_updated_on>
+            <value>your choice2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -120,38 +158,19 @@
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Your Department Choice 1</label>
+            <label>Other</label>
             <language>en</language>
             <name>x_18000_needit_needit</name>
             <sequence>6</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-28 20:03:32</sys_created_on>
+            <sys_created_on>2017-09-23 09:50:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>086423ea4f30030027a1c4b18110c7ff</sys_id>
+            <sys_id>2b4197364fd5430027a1c4b18110c7df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-28 20:03:32</sys_updated_on>
-            <value>your choce1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Your  Department Choice 2</label>
-            <language>en</language>
-            <name>x_18000_needit_needit</name>
-            <sequence>7</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-28 20:03:32</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c06463ea4f30030027a1c4b18110c701</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-28 20:03:32</sys_updated_on>
-            <value>your choice2</value>
+            <sys_updated_on>2017-09-23 09:50:05</sys_updated_on>
+            <value>other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_what_needed</element>

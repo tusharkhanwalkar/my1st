@@ -4,31 +4,35 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>Set the Requested for to the currently logged in user for new records. Users can change the field value</description>
         <field>active</field>
         <global>true</global>
         <messages/>
-        <name>NeedIt onLoad Example</name>
+        <name>NeedIt Set Requested for</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //message below displayed when fomr records loads
-  alert ("hello form has loaded"); 
+  //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+
+    if(g_form.isNewRecord()){
+        g_form.setValue('u_requested_for',g_user.userID);
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-09-01 20:52:39</sys_created_on>
+        <sys_created_on>2017-09-19 19:38:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>6b42180c4f01030027a1c4b18110c7e3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>NeedIt onLoad Example</sys_name>
+        <sys_id>859fa4314f91030027a1c4b18110c7c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_18000_needit">e85c77e14f30030027a1c4b18110c793</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">e85c77e14f30030027a1c4b18110c793</sys_scope>
-        <sys_update_name>sys_script_client_6b42180c4f01030027a1c4b18110c7e3</sys_update_name>
+        <sys_update_name>sys_script_client_859fa4314f91030027a1c4b18110c7c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-07 19:17:56</sys_updated_on>
+        <sys_updated_on>2017-09-19 19:38:05</sys_updated_on>
         <table>x_18000_needit_needit</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
